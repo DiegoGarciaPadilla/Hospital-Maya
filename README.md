@@ -14,7 +14,7 @@ To deploy this application, you will need to have Apache Maven installed. You wi
 
 1. Clone this repository to your local machine.
 2. Open the project in your favorite IDE.
-3. Create a database called "hospital" in MySQL.
+3. Create a database called "hospital_maya" in MySQL.
 4. Run the application.
 5. Open your browser and go to http://localhost:8080/
 
