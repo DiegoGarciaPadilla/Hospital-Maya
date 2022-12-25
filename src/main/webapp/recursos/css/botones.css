@@ -1,0 +1,40 @@
+.boton {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+.boton button {
+  width: 200px;
+  height: 40px;
+  border: 1px solid #30a8c0;
+  border-radius: 3px;
+  font-size: 13px;
+  transition: all 0.3s ease;
+  outline: none;
+  margin: 10px;
+  background-color: white;
+  color: #30a8c0;
+  cursor: pointer;
+}
+
+.boton button:hover {
+  background-color: #30a8c0;
+  color: white;
+}
+
+@media screen and (max-width: 980px) {
+
+  .boton {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .boton button {
+    width: 60%;
+    height: 40px;
+  }
+
+}

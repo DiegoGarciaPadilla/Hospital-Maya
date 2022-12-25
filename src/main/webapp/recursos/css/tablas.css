@@ -1,0 +1,30 @@
+@import "botones.css";
+
+table{
+    width: 100%;
+    height: auto;
+    border: thin solid #60c0d8;
+}
+
+th, td {
+    border: thin solid #60c0d8;
+    padding: 3px;
+}
+
+table a{
+    text-decoration: none;
+    color: #30a8c0;
+}
+
+table a:hover{
+    color: #60c0d8;
+}
+
+#vinculo {
+    text-decoration: none;
+    color: #30a8c0;
+}
+
+#vinculo:hover{
+    color: #60c0d8;
+}
